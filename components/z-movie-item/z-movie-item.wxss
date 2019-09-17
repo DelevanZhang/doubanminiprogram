@@ -1,0 +1,12 @@
+/* components/z-movie-item/z-movie-item.wxss */
+.movie-item {
+  border:1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 48%;
+}
+.img {
+  border:1px solid yellow;
+  width: 100%;
+}

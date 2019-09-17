@@ -3,5 +3,8 @@
 const app = getApp()
 
 Page({
-  
+  data:{
+    title:'功夫',
+    score:9.6
+  }
 })

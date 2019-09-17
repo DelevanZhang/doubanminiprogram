@@ -1,0 +1,6 @@
+<!--components/z-movie-item/z-movie-item.wxml-->
+<view class="movie-item">
+ <image class="img"></image>
+ <view class="title">{{title}}</view>
+ <view class="score">{{score}}</view>
+</view>
