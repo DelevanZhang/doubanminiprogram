@@ -1,0 +1,22 @@
+page {
+  height:100%;
+}
+.movie-wrap {
+  display:flex;
+  flex-flow:wrap;
+  justify-content: space-around;
+  margin-top:10rpx;
+}
+.movie-item {
+  width:48%;
+  padding-bottom:80rpx;
+  position:relative;
+}
+
+/* loading */
+.loadingWrap {
+  text-align: center;
+}
+.loading {
+  width:200rpx;
+}

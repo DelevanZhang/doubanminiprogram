@@ -6,7 +6,10 @@ Component({
   properties: {
     info:{
       type:Object,
-      value:{}
+      value:{
+        title:'孤单英雄',
+        rate:9.5
+      }
     }
   },
 

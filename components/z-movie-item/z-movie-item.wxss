@@ -1,12 +1,21 @@
 /* components/z-movie-item/z-movie-item.wxss */
 .movie-item {
-  border:1px solid red;
   display: flex;
   justify-content: center;
-  flex-flow: wrap;
-  width: 48%;
+  flex-flow:wrap;
 }
 .img {
-  border:1px solid yellow;
   width: 100%;
+}
+.info {
+  position: absolute;
+  left:0;
+  right:0;
+  bottom: 10rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 28rpx;
+}
+.score {
+  margin:0 4px;
 }

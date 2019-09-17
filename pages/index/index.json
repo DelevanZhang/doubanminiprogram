@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "z-movie-item":"/components/z-movie-item/z-movie-item"
+  },
   "navigationBarTitleText": "电影"
 }

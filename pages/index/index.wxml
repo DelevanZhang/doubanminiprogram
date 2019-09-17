@@ -1,0 +1,13 @@
+<!-- 1.图片列表展示 -->
+<scroll-view scroll-y
+             style="height:100%;"
+             bindscrolltolower="loadMoreData">
+  <view class="movie-wrap">
+    <block wx:for="{{list}}" wx:key="{{index}}">
+      <z-movie-item info="{{item}}" class="movie-item" />
+    </block>
+  </view>
+  <view class="loadingWrap" wx:if="{{loading}}">
+    <image class="loading" src="/assets/images/common/loading.gif" mode="widthFix" />
+  </view>
+</scroll-view>
